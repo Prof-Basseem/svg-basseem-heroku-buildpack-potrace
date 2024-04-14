@@ -1,0 +1,6 @@
+#!/bin/sh
+cat <<EOF
+---
+config_vars:
+  POTRACE_PATH: "/app/bin/potrace"
+EOF
