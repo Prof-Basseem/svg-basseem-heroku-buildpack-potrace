@@ -1,0 +1,10 @@
+#!/bin/sh
+BUILD_DIR=$1
+CACHE_DIR=$2
+
+echo "-----> Installing Potrace..."
+
+# Download and extract Potrace (replace URL with the actual Potrace tarball URL)
+curl -L https://potrace-project-url/potrace.tar.gz | tar xz -C $BUILD_DIR/bin
+
+echo "-----> Potrace installed"
